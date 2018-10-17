@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>
+  Testing Rest Parameters.
+</title>
+
+</head>
+<body>
+<p>
+hari
+</p>
+<script >
+testRest = (limit, ...arguments) =>{
+arguments.forEach(item => console.log((2018-item)>=limit));
+}
+
+testRest(18, 1990, 1964, 1945, 1992);
+
+let spreadArray = [1,2,3,4,5];
+spreadArrayFunc = (spreadArray) =>{
+    console.log(...spreadArray);
+}
+
+spreadArrayFunc(spreadArray);
+</script>
+</body>
+
+</html>
